@@ -8,9 +8,9 @@ package Konstruktor;
  *
  * @author Dhimas Ananta
  */
-public class B extends A{
-    B(){
-        super(" test ");
-        System.out.println("Konstruktor class B dieksekusi . . .");
+public class C extends B{
+    C(){
+        super();
+        System.out.println("Konstruktor class C dieksekusi . . .");
     }
 }
