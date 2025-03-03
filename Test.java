@@ -1,35 +1,16 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Other/File.java to edit this template
  */
-package semester2;
+package Pendidikan;
 
+/**
+ *
+ * @author Dhimas Ananta
+ */
 public class Test {
-    public static void main(String[] args) {
-        Animal animal = new Animal();
-        animal.makeNoise();
-
-        Dog dog = new Dog();
-        dog.makeNoise();
-
-        Animal animaldog = new Dog();
-        animaldog.makeNoise();
-
-        if (animal instanceof Animal) {
-            System.out.println("animal is Animal");
-        }
-
-        if (dog instanceof Animal) {
-            System.out.println("dog is Animal");
-        }
-
-        if (animaldog instanceof Animal) {
-            System.out.println("animaldog is Animal");
-        }
-
-        if (animaldog instanceof Dog) {
-            System.out.println("animaldog is Dog");
-        }
+    public static void main(String args[]) {
+        Pelajar mahasiswa = new Pelajar("Lukman", 172, 75, "1010651098", "UM JEMBER", 98.8);
+        System.out.println(mahasiswa.toString());
     }
 }
-
